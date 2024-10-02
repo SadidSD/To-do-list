@@ -1,0 +1,98 @@
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0; /* Remove default margin */
+  background-color: #f0f0f0; /* Light gray background for contrast */
+}
+
+.container {
+  background-color: #ffffff; /* White background for the container */
+  height: 700px;
+  width: 380px;
+  border: 1px solid #dcdcdc; /* Light border */
+  border-radius: 15px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px; /* More padding for a spacious layout */
+  position: relative;
+}
+
+h1 {
+  font-size: 28px; /* Larger font size for the heading */
+  color: #333; /* Dark gray color for better readability */
+  text-align: center; /* Center align the heading */
+}
+
+#aura {
+  position: absolute; /* Position it absolutely */
+  top: 55px; /* Adjust as needed */
+  right: 70px; /* Align to the right for better placement */
+  font-weight: bold; /* Bold for emphasis */
+  font-size: 18px; /* Larger font size */
+  color: #555; /* Gray color for a softer look */
+}
+
+#point {
+  position: absolute;
+  top: 55px;
+  right: 40px; /* Align point text next to Aura */
+  font-weight: bold; /* Bold for emphasis */
+  font-size: 18px; /* Larger font size */
+  color: #333; /* Dark gray color */
+}
+
+label {
+  font-size: 16px; /* Adjust font size for labels */
+  color: #555; /* Gray color for better contrast */
+  margin-top: 10px; /* Add margin for spacing */
+}
+
+input[type="text"] {
+  width: calc(100% - 20px); /* Full width minus padding */
+  padding: 10px; /* Add padding for a better input area */
+  margin: 10px 0; /* Spacing between elements */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Slightly rounded corners */
+}
+
+button {
+  background-color: #4CAF50; /* Green background for the button */
+  color: white; /* White text color */
+  padding: 10px; /* Padding for the button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Slightly rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+h3 {
+  margin-top: 20px; /* Margin for spacing */
+  color: #333; /* Dark gray color for headings */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  padding: 10px; /* Padding for list items */
+  border-bottom: 1px solid #e0e0e0; /* Light border between items */
+}
+
+li:last-child {
+  border-bottom: none; /* Remove last border */
+}
+
+input[type="checkbox"] {
+  margin-right: 10px; /* Space between checkbox and text */
+}
